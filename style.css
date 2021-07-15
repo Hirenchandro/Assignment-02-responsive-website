@@ -3,9 +3,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
 
 .copa-america{
-    display:flex;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
 }
 .blogs{
@@ -14,7 +20,7 @@ body{
 .blog{
     width: 485px;
     height: 230px;
-    margin-top: 207px;
+    margin-top: 60px;
     margin-left: 156px;
   
 }
@@ -37,18 +43,20 @@ body{
     padding: 10px 24px;
     background-color: #E02C6D;
 }
+.banner-photo{
+width: 557px;
+height: 438px;
+}
 
 .banner-photo img{
-    width: 556px;
-    height: 438px;
-    margin-top: 153px;
-    margin-bottom: 86px;
-    margin-left:102px;
-    margin-right: 141px;
+    width: 80%;
+    height: 60%;
+    padding-top: 80px;
+   
 
 }
 .copa-america:hover .banner-photo{
-    transform: scale(1.5);
+    transform: scale(1.2);
     transition: transform 2s ease-in-out;
 }
 
@@ -131,20 +139,35 @@ body{
  ----------------- */
  .footer-elements{
      width: 484px;
-     height: 213px;
-     margin-top: 182px;
-     margin-left: 475px;
-     margin-right: 481px;
-     margin-bottom: 39px;
-     border: 2px solid greenyellow;
+     height: 213px;  
+     margin: 182px 481px 39px 350px;
+   justify-content: center;
+     
  }
  .footer-logo {
      width: 484px;
      height: 110px;
-     border: 2px solid red;
+   
 
  }
  .footer-logo img{
      width: 100%;
      height: 100%;
+ }
+ .social-site{
+     width: 170px;
+     height: 32px;
+     margin: 20px 157px 20px 157px ;
+ }
+ .fab {
+     width: 32px;
+     height: 32px;
+     color: grey;
+  
+ }
+ .copy-right{
+     width: 236px;
+     height: 31px;
+     margin-top: 20px;
+    
  }
